@@ -3,6 +3,14 @@
     src: url("fonts/MrDafoe-Regular.ttf") format("ttf"),
 }
 
+.relative {
+    position: relative;
+}
+
+.absolute {
+    position: absolute;
+}
+
 a {
     display: inline-block;
     padding: 15px 45px;
@@ -20,7 +28,6 @@ a:hover {
 
 header {
     background-image: url(https://149448400.v2.pressablecdn.com/wp-content/uploads/2021/11/doctor-1-1-1.png);
-    height: 1000px;
 }
 
 .header_text {
@@ -70,4 +77,212 @@ header a {
 header a:hover {
     color: #96f7fd;
     border-color: #96f7fd;
+}
+
+.pointer {
+    width: 75px;
+    margin-left: 58%;
+    margin-top: 1%;
+}
+
+.section_1_bg {
+    background-image: url(https://149448400.v2.pressablecdn.com/wp-content/uploads/2021/11/doctor-dots-d2.png);
+    background-repeat: no-repeat;
+}
+
+.img_relative_col_1 {
+    width: 90%;
+    border-top-left-radius: 10% !important; 
+    border-radius: 33%;
+}
+
+.img_round_col_1 {
+    width: 55%;
+    border-radius: 50%;
+    border: 20px solid #fff;
+    right: 25px;
+    bottom: -55px;
+    z-index: 1;
+}
+
+.div_lien_col_1 {
+    right: 10px;
+    bottom: 200px;
+    z-index: 3;
+
+    background-color: #fff;
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+    padding: 25px 10px;
+    border-radius: 10%;
+    transition: 200ms ease-out;
+}
+
+.div_lien_col_1:hover {
+    transform: scale(1.1);
+    transition: 200ms ease-in;
+}
+
+.div_lien_col_1 img {
+    width: 40%;
+}
+
+.div_lien_col_1 p {
+    font-family: 'Sora',Helvetica,Arial,Lucida,sans-serif;
+    font-weight: 700;
+    font-size: 15px;
+    color: #0d1742;
+    line-height: 0em;
+    margin-top: 20%;
+}
+
+.about {
+    color: #2a43aa !important;
+    font-family: 'Sora',Helvetica,Arial,Lucida,sans-serif;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 1em;
+}
+
+.div_lien_col_2 h2 {
+    font-family: 'Sora',Helvetica,Arial,Lucida,sans-serif;
+    font-weight: 700;
+    font-size: 40px;
+    color: #0d1742;
+    letter-spacing: -1px;
+    line-height: 1.3em;
+}
+
+.div_lien_col_2 p {
+    font-family: 'Sora',Helvetica,Arial,Lucida,sans-serif;
+    font-size: 15px;
+    line-height: 1.8em;
+    color: #a0a0a0;
+}
+
+.txt_bleu {
+    font-family: 'Sora',Helvetica,Arial,Lucida,sans-serif;
+    font-weight: 300;
+    font-size: 17px;
+    line-height: 1.8em;
+    color: #0d1742 !important;
+}
+
+.div_lien_col_2 a {
+    background-color: #2a43aa;
+    color: #fff;
+}
+
+.div_lien_col_2 a:hover {
+    border-color: #2a43aa;
+    color: #2a43aa;
+    background-color: #fff;
+}
+
+.section_2 {
+    background-image: linear-gradient(180deg, rgba(150,247,253,0.18) 77%, #fff 0%);
+}
+
+.section_2_titre {
+    font-family: 'Sora',Helvetica,Arial,Lucida,sans-serif;
+    font-weight: 700;
+    text-transform: uppercase;
+    font-size: 40px;
+    color: #0d1742;
+    letter-spacing: -1px;
+    line-height: 1.1em;
+}
+
+.section_2_texte {
+    color: #0d1742;
+    font-family: 'Sora',Helvetica,Arial,Lucida,sans-serif;
+    font-weight: 300;
+    font-size: 17px;
+}
+
+.section_2_top {
+    margin-bottom: 5%;
+}
+
+.section_2_triple_div h2 {
+    font-family: 'Sora',Helvetica,Arial,Lucida,sans-serif;
+    font-weight: 800;
+    font-size: 20px;
+    color: #2a43aa;
+}
+
+.section_2_triple_div h3 {
+    font-family: 'Sora',Helvetica,Arial,Lucida,sans-serif;
+    font-weight: 700;
+    font-size: 25px;
+    color: #0d1742;
+    line-height: 1.2em;
+}
+
+.section_2_triple_div img {
+    width: 90%;
+}
+
+.hr {
+    border: 2px solid #2a43aa;
+}
+
+.section_2_triple_div p {
+    font-family: 'Sora',Helvetica,Arial,Lucida,sans-serif;
+    font-weight: 300;
+    font-size: 15px;
+    color: #a0a0a0;
+}
+
+.strong_blue {
+    font-weight: 600 !important;
+    color: #0d1742!important;
+}
+
+.section_2_triple_div a {
+    background-color: #2a43aa;
+    border-color: #2a43aa;
+    color: #fff;
+    font-size: 12px;
+    padding-top: 8px!important;
+    padding-right: 35px!important;
+    padding-bottom: 8px!important;
+    padding-left: 30px!important;
+}
+
+.bg_border {
+    background-color: #fff;
+    border-radius: 30px;
+    border: 3px solid #fff;
+    transition: 200ms ease-out;
+}
+
+.bg_border:hover {
+    border-color: #2a43aa;
+    transition: 200ms ease-in;
+}
+
+
+@media screen and (max-width: 1399px) {
+    header h2 {
+        font-size: 90px;
+    }
+
+    header h3 {
+        font-size: 130px;
+        margin-top: -80px;
+    }
+
+    header h4 {
+        margin-top: -20px;
+    }
+}
+
+@media screen and (max-width: 991px) {
+   .section_1_bg {
+       margin-bottom: 15%;
+   }
+}
+
+@media screen and (max-width: 767px) {
+    
 }
