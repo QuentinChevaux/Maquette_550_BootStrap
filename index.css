@@ -1,0 +1,73 @@
+@font-face {
+    font-family: "Mr Dafoe";
+    src: url("fonts/MrDafoe-Regular.ttf") format("ttf"),
+}
+
+a {
+    display: inline-block;
+    padding: 15px 45px;
+    border: 3px solid;
+    text-decoration: none !important;
+    border-radius: 30px;
+    font-size: 18px;
+    font-family: 'Sora',Helvetica,Arial,Lucida,sans-serif;
+    transition: 200ms ease-out;
+}
+
+a:hover {
+    transition: 200ms ease-in;
+}
+
+header {
+    background-image: url(https://149448400.v2.pressablecdn.com/wp-content/uploads/2021/11/doctor-1-1-1.png);
+    height: 1000px;
+}
+
+.header_text {
+    padding-top: 13%;
+}
+
+header h1 {
+    line-height: 1em;
+    font-family: 'Sora',Helvetica,Arial,Lucida,sans-serif;
+    font-weight: 700;
+    font-size: 45px;
+    color: #fff;
+}
+
+header h2 {
+    font-family: 'Sora',Helvetica,Arial,Lucida,sans-serif;
+    font-weight: 800;
+    font-size: 120px;
+    color: #FFFFFF;
+    letter-spacing: -0.5vh;
+    margin-top: -20px;
+}
+
+header h3 {
+    font-family: 'Mr Dafoe';
+    font-size: 170px;
+    color: #96f7fd;
+    margin-top: -110px;
+    transform: rotate(-7deg);
+}
+
+header h4 {
+    font-family: 'Sora',Helvetica,Arial,Lucida,sans-serif;
+    font-size: 6vh;
+    color: #FFFFFF;
+    letter-spacing: -0.3vh;
+    margin-top: -40px;
+}
+
+header a {
+    color: #fff;
+    border-color: #fff;
+
+    margin-top: 50px;
+}
+
+header a:hover {
+    color: #96f7fd;
+    border-color: #96f7fd;
+}
